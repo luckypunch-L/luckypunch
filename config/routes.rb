@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'items' => 'public/items#index'
   get 'items/:id' => 'public/items#show'
 
-
+  
 
 
   get 'public_homes/about' => 'public_homes#about', as: "about"
